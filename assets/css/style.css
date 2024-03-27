@@ -795,12 +795,14 @@ input:checked+.slider:before {
         gap: 30px;
     }
 
+     
 }
 
 @media (max-width: 992px) {
     .mt-25 {
         margin-top: 10px;
     }
+ 
 
     .pt-12 {
         padding-top: 8px;
@@ -837,7 +839,7 @@ input:checked+.slider:before {
     }
 
     .pt-217 {
-        padding-top: 80px;
+        padding-top: 40px;
     }
 
     .pt-82 {
@@ -897,5 +899,8 @@ input:checked+.slider:before {
     .box_card {
         padding: 23.59px 18px 23.59px 30px;
     }
-
+    .top_bottom {
+        top: 34%;
+        left: 5%;
+    }
 }

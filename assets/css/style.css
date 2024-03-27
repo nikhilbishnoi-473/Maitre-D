@@ -9,7 +9,19 @@
     text-decoration: none !important;
     /* outline: 1px solid red !important; */
 }
+.responsive.slick-track {
+    display: flex !important;
+}
 
+.slick-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    height: inherit !important;
+}
+.slick-slide .div{
+display:flex !important;
+}
 #myBtn {
     display: none;
     position: fixed;
@@ -645,6 +657,14 @@ left: 5%;
     top: 18%;
     right: 3%;
 }
+.slider_slider_1{
+    top: 70%;
+    left: 7%;
+}
+.slider_slider_2{
+    top: 70%;
+    right: 7%;
+}
 
 @media (max-width:992px) {
     .mobile_view {
@@ -727,7 +747,12 @@ left: 5%;
     .gap-80 {
         gap: 30px;
     }
-
+.mt-25{
+    margin-top: 10px;
+}
+.pt-12{
+    padding-top: 8px;
+}
 
 }
 
@@ -782,6 +807,16 @@ left: 5%;
     .mt_20 {
         margin-top: 20px;
     }
+    
+.slider_slider_1{
+    top: 70%;
+    left: 1%;
+}
+.slider_slider_2{
+    top: 70%;
+    right: 1%;
+}
+
 }
 
 @media (max-width: 578px) {

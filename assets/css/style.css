@@ -386,6 +386,7 @@
 
 }
 
+
 .pt-34 {
     padding-top: 34px;
 }
@@ -448,7 +449,10 @@
     border-radius: 10px 10px 0px 0px;
     padding: 23.59px 92.58px 23.59px 41.52px;
     background: var(--bg-line);
-    /* width: 100%; */
+    transition: all 400ms linear;
+}
+.box_card:hover{
+    background: var(--hover);
 }
 
 .circle_2 {
@@ -491,8 +495,11 @@
     border: 1px solid var(--border);
     background: var(--bg-line);
     padding: 41px 25.16px 40.36px 21.81px;
+    transition: all 400ms linear;
 }
-
+.box_3:hover{
+    background: var(--hover);
+}
 .elips_5 {
     top: 21%;
     left: 10%;
@@ -827,9 +834,9 @@ input:checked+.slider:before {
 
 @media (max-width: 768px) {
     .transition_1:hover {
-        transform: translateY(-20px);
+        transform: translateY(0px);
     }
-
+ 
     .pb-189 {
         padding-bottom: 50px;
     }

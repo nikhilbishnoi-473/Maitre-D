@@ -753,7 +753,12 @@ left: 5%;
 .pt-12{
     padding-top: 8px;
 }
-
+.max-width_img {
+    max-width: 200.29px;
+}
+.slick_box{
+    box-shadow: none;
+}
 }
 
 @media (max-width: 768px) {

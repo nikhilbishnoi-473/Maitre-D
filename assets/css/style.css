@@ -198,7 +198,7 @@ display:flex !important;
 .bg_images-2{
     background-image: url(../images/Union.png);
     background-repeat: no-repeat;
-    background-position: center;
+  
     background-size: cover;
 }
 .circle_elips{
@@ -483,7 +483,22 @@ display:flex !important;
     background: var(--bg-line);
     padding: 41px 25.16px 40.36px 21.81px;
 }
-
+.elips_5{
+    top: 21%;
+    left: 10%;
+}
+.elips_6{
+    top: 30%;
+    right: 30%; 
+}
+.elips_7{
+    top: 42%;
+    right: 22%; 
+}
+.elips_8{
+    top: 35%;
+    right:23%;
+}
 .circle_4 {
     width: 89.58px;
     height: 90.08px;

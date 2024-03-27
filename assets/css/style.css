@@ -375,8 +375,8 @@
     margin-top: 43px;
 }
 
-.pt-189 {
-    padding-top: 189px;
+.pb-189 {
+    padding-bottom: 189px;
 }
 
 .slider_box {
@@ -830,8 +830,8 @@ input:checked+.slider:before {
         transform: translateY(-20px);
     }
 
-    .pt-189 {
-        padding-top: 50px;
+    .pb-189 {
+        padding-bottom: 50px;
     }
 
     .pt-80 {

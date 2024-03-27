@@ -9,6 +9,7 @@
     text-decoration: none !important;
     /* outline: 1px solid red !important; */
 }
+
 .responsive.slick-track {
     display: flex !important;
 }
@@ -19,9 +20,11 @@
     align-items: center !important;
     height: inherit !important;
 }
-.slick-slide .div{
-display:flex !important;
+
+.slick-slide .div {
+    display: flex !important;
 }
+
 #myBtn {
     display: none;
     position: fixed;
@@ -38,7 +41,7 @@ display:flex !important;
 }
 
 #myBtn:hover {
-    box-shadow: 0px 0px 20px 0px  var(--button);
+    box-shadow: 0px 0px 20px 0px var(--button);
 }
 
 .max-w-1140 {
@@ -176,13 +179,15 @@ display:flex !important;
 
 .btn_1:hover {
     background: var(--hover);
-    
+
 }
-.top_bottom{
+
+.top_bottom {
     top: 34%;
     left: 20%;
 
 }
+
 .mt-59 {
     margin-top: 59px;
 }
@@ -195,13 +200,15 @@ display:flex !important;
     max-width: 146px;
     transition: all 300ms linear;
 }
-.bg_images-2{
+
+.bg_images-2 {
     background-image: url(../images/Union.png);
     background-repeat: no-repeat;
-  
+
     background-size: cover;
 }
-.circle_elips{
+
+.circle_elips {
     top: 14%;
     right: 5%;
 }
@@ -346,9 +353,11 @@ display:flex !important;
 .mt-21 {
     margin-top: 21px;
 }
-.pt-40{
+
+.pt-40 {
     padding-top: 40px;
 }
+
 .btn_sign {
     /* max-width: 212px; */
     background: var(--bg-line);
@@ -483,22 +492,27 @@ display:flex !important;
     background: var(--bg-line);
     padding: 41px 25.16px 40.36px 21.81px;
 }
-.elips_5{
+
+.elips_5 {
     top: 21%;
     left: 10%;
 }
-.elips_6{
+
+.elips_6 {
     top: 30%;
-    right: 30%; 
+    right: 30%;
 }
-.elips_7{
+
+.elips_7 {
     top: 42%;
-    right: 22%; 
+    right: 22%;
 }
-.elips_8{
+
+.elips_8 {
     top: 35%;
-    right:23%;
+    right: 23%;
 }
+
 .circle_4 {
     width: 89.58px;
     height: 90.08px;
@@ -609,9 +623,11 @@ display:flex !important;
     box-shadow: -2px 1px 6px 0px var(--circle-shadow);
 
 }
-.image_width{
+
+.image_width {
     max-width: 443px;
 }
+
 input:checked+.slider {
     background: var(--white);
 
@@ -652,39 +668,48 @@ input:checked+.slider:before {
 .pt-82 {
     padding-top: 82px;
 }
-.box_svg{
-bottom:  13%;
-left: 5%;
+
+.box_svg {
+    bottom: 13%;
+    left: 5%;
 }
-.footer_elips{
-    bottom:77px;
+
+.footer_elips {
+    bottom: 77px;
     left: 0;
 }
-.elips_2{
+
+.elips_2 {
     bottom: 18%;
     left: 5%;
 }
-.elips_3{
+
+.elips_3 {
     bottom: -8px;
     left: 3%;
 }
-.elips_4{
+
+.elips_4 {
     top: 30%;
     right: 5%;
 }
-.footer_elips_2{
+
+.footer_elips_2 {
     top: 18%;
     right: 3%;
 }
-.slider_slider_1{
+
+.slider_slider_1 {
     top: 70%;
     left: 7%;
 }
-.slider_slider_2{
+
+.slider_slider_2 {
     top: 70%;
     right: 7%;
 }
-.group_2{
+
+.group_2 {
     max-width: 618px;
 }
 
@@ -769,35 +794,44 @@ left: 5%;
     .gap-80 {
         gap: 30px;
     }
- 
+
 }
+
 @media (max-width: 992px) {
-    .mt-25{
+    .mt-25 {
         margin-top: 10px;
     }
-    .pt-12{
+
+    .pt-12 {
         padding-top: 8px;
     }
+
     .max-width_img {
         max-width: 200.29px;
     }
-    .slick_box{
+
+    .slick_box {
         box-shadow: none;
     }
+
     .pt_20 {
         padding-top: 20px;
     }
-    .pt-217{
+
+    .pt-217 {
         padding-top: 150px;
     }
 }
+
 @media (max-width: 768px) {
     .transition_1:hover {
         transform: translateY(-20px);
     }
+
     .pt-189 {
         padding-top: 50px;
     }
+
     .pt-80 {
         padding-top: 30px;
     }
@@ -805,10 +839,11 @@ left: 5%;
     .pt-217 {
         padding-top: 80px;
     }
-.pt-82{
-    padding-top: 50px;
-}
-    
+
+    .pt-82 {
+        padding-top: 50px;
+    }
+
 
     .pt-90 {
         padding-top: 40px;
@@ -837,22 +872,23 @@ left: 5%;
     .pt-34 {
         padding-top: 19px;
     }
-  
+
 }
 
 @media (max-width: 1200px) {
     .mt_20 {
         margin-top: 20px;
     }
-    
-.slider_slider_1{
-    top: 70%;
-    left: 1%;
-}
-.slider_slider_2{
-    top: 70%;
-    right: 1%;
-}
+
+    .slider_slider_1 {
+        top: 70%;
+        left: 1%;
+    }
+
+    .slider_slider_2 {
+        top: 70%;
+        right: 1%;
+    }
 
 }
 

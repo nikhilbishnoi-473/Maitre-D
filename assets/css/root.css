@@ -37,55 +37,68 @@
     --bg-color: #FFF6F1;
     --button: #FD9B2B;
     --button_2: #F14F09;
-    --bg-line:  linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
-    --bg-line-2:  linear-gradient(96.64deg, #F14F09 86.99%, #FD9B2B 13.58%);
-    --hover: linear-gradient(96.64deg , #F14F09 , #FD9B2B );
---shadow: #FF586E47;
---box-shadow: #0000000A;
---shadow-2: #0000000F;
---border: #E8E8E8;
---circle-shadow: #00000040;
+    --bg-line: linear-gradient(96.64deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    --bg-line-2: linear-gradient(96.64deg, #F14F09 86.99%, #FD9B2B 13.58%);
+    --hover: linear-gradient(96.64deg, #F14F09, #FD9B2B);
+    --shadow: #FF586E47;
+    --box-shadow: #0000000A;
+    --shadow-2: #0000000F;
+    --border: #E8E8E8;
+    --circle-shadow: #00000040;
 
 }
-.hover{
+
+.hover {
     background: var(--hover);
 }
-.bg-line-2{
+
+.bg-line-2 {
     color: var(--bg-line-2);
 }
-.circle-shadow{
+
+.circle-shadow {
     color: var(--circle-shadow);
 }
-.fw-500{
+
+.fw-500 {
     font-weight: var(--fw-500);
 }
-.border{
+
+.border {
     color: var(--border);
 }
-.shadow-2{
+
+.shadow-2 {
     color: var(--shadow-2);
 }
-.box-shadow{
+
+.box-shadow {
     color: var(--box-shadow);
 }
-.shadow{
+
+.shadow {
     color: var(--shadow);
 }
-.bg-line{
+
+.bg-line {
     background: var(--bg-line);
 }
-.linear_color{
+
+.linear_color {
     background: -webkit-linear-gradient(96.64deg, var(--button_2) 13.58%, var(--button) 86.99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .white {
     color: var(--white);
 }
-.work-f{
+
+.work-f {
     font-family: 'Work Sans', sans-serif;
 }
-.op-70{
+
+.op-70 {
     opacity: 70%;
 }
 
@@ -216,8 +229,9 @@
 .fs-61 {
     font-size: var(--fs-61);
 }
+
 @media (max-width: 768px) {
-    :root{
+    :root {
         --fs-61: 34px;
         --line-71: 50px;
         --fs-40: 20px;
@@ -225,10 +239,10 @@
         --fs-20: 17px;
         --fs-48: 32px;
         --line-46: 35px;
---fs-12: 9px;
---fs-16: 12px;
---fs-24: 20px;
---line-36:29px;
---line-24: 18px; 
+        --fs-12: 9px;
+        --fs-16: 12px;
+        --fs-24: 20px;
+        --line-36: 29px;
+        --line-24: 18px;
     }
 }
